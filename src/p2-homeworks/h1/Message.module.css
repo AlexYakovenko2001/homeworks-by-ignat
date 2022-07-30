@@ -1,35 +1,24 @@
 .message {
-    position: relative;
-    border: 2px solid #dedede;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
     background-color: greenyellow;
-    padding: 10px;
-    margin: 30px;
-    max-height: 200px;
-    max-width: 500px;
 }
 .messageAvatar {
-    position: absolute;
-    bottom: 5px;
-    float: left;
-    max-width: 45px;
-    width: 100%;
-    margin-right: 20px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 .time {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     color: #aaa;
 }
 .messageWindow {
-    overflow-y: auto;
+    margin-left: 10px;
     padding: 10px;
-    margin-left: 60px;
-    position: relative;
-    background-color: black;
-    max-width: 300px;
-    max-height: 100px;
     border-radius: 10px;
-    color: white;
+    background-color: black;
 }
 /*.messageWindow::before{*/
 /*    display: block;*/
@@ -44,4 +33,10 @@
 /*}*/
 .messageName {
     color: cornflowerblue;
+}
+.messageMessage {
+ min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+    color: white;
 }
