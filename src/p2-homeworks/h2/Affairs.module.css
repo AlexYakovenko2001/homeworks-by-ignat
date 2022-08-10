@@ -1,3 +1,25 @@
-.someClass {
-
+.button {
+    margin: 10px;
+    width: 60px;
+    background: #983300;
+    color: #99ff99;
+}
+.active {
+    background: #23bb23;
+}
+.affair {
+    display: flex;
+}
+.item {
+    margin: 10px;
+    width: 100px;
+}
+.high {
+    color: red;
+}
+.middle {
+    color: #414472;
+}
+.low {
+    color: #6f982d;
 }
