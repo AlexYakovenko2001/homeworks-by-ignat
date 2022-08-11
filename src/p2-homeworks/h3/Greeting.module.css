@@ -1,0 +1,37 @@
+.greeting {
+    display: flex;
+    align-items: flex-start;
+}
+.inputError {
+    margin: 8px;
+    height: 30px;
+}
+.input {
+    background: #983300;
+    color: #99ff99;
+    border: 2px solid #983300;
+}
+.error {
+    background: #983300;
+    color: #99ff99;
+    border: 2px solid red;
+}
+.errorMessage {
+    height: 10px;
+    color: red;
+}
+.button {
+    margin: 10px;
+    width: 60px;
+    background: #983300;
+    color: #99ff99;
+}
+.item {
+    margin: 10px;
+    width: 100px;
+}
+.totalUsers {
+    display: inline-block;
+    margin: 10px;
+    color: #983300;
+}
