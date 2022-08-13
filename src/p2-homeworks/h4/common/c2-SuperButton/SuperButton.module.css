@@ -1,0 +1,14 @@
+.default {
+    margin: 10px;
+    width: 60px;
+    background: #983300;
+    color: #99ff99;
+}
+.default:disabled {
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.red {
+    background: red;
+}

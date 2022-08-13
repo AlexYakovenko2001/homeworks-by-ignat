@@ -1,0 +1,21 @@
+.wrapper {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.superInput {
+    background: #983300;
+    color: #99ff99;
+    border: 2px solid #983300;
+}
+.blue {
+    border-bottom: 5px solid blue;
+}
+
+
+.error {
+    display: block;
+    height: 20px;
+    color: red;
+}
