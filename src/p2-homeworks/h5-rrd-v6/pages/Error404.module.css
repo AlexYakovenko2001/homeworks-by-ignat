@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://raw.githubusercontent.com/CodMark/404-error-page-not-found-using-html-amd-css/main/gifs.gif") center no-repeat;
+}
+.wrapper p {
+    position: absolute;
+    top: 3rem;
+    font-size: 7rem;
+    color: #00000063;
+}
+.wrapper h2 {
+    position: absolute;
+    bottom: 8rem;
+    font-size: 34px;
+}
+.wrapper h5 {
+    position: absolute;
+    bottom: 6rem;
+    color: #9c9c9c;
+}
